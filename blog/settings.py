@@ -71,6 +71,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'blog.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://katen.onrender.com',
+]
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
